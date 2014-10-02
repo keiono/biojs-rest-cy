@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<script src="build/biojs-rest-cy.js"></script>
+
+<div id=yourDiv></div>
+<script>
+// you can
+var yourDiv = document.getElementById("yourDiv");
+//var cyrest = require('biojs-rest-cy');
+var result = cyrest.hello('biojs');
+yourDiv.textContent = result;
+</script>
