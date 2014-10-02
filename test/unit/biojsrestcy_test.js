@@ -21,13 +21,9 @@ chai.should();
 var cyrest = require('../..');
 
 describe('biojs-rest-cy module', function(){
-  describe('#hello()', function(){
-    it('should return a hello', function(){
-
-      assert.equal(cyrest.hello('biojs'), ("Test biojs"));
-
-      // alternative styles
-      cyrest.hello('biojs').should.equal("Test biojs");
+  describe('#setPortNumber()', function(){
+    it('should update port number', function(){
+      assert.equal(cyrest.setPortNumber(8080), ('http://localhost:8080/v1/'));
     });
   });
 

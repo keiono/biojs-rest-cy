@@ -30,7 +30,9 @@
     "sniper": "biojs-sniper .",
     "watch": "gulp watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "request": "^2.44.0"
+  },
   "devDependencies": {
     "blanket": "^1.1.6",
     "browserify": "5.x",
