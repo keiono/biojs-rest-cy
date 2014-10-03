@@ -5,30 +5,26 @@
 [![Coverage Status](https://img.shields.io/coveralls/keiono/biojs-rest-cy.svg)](https://coveralls.io/r/keiono/biojs-rest-cy)
 [![NPM version](https://badge-me.herokuapp.com/api/npm/biojs-rest-cy.png)](http://badges.enytc.com/for/npm/biojs-rest-cy) 
 
-> cyREST utilities for node.js
+> Utility package for [cyREST](https://github.com/keiono/cy-rest)
 
 ## Getting Started
 Install the module with: `npm install biojs-rest-cy`
 
 ```javascript
-var biojsrestcy = require('biojs-rest-cy');
-biojsrestcy.hello("biojs"); // "hello biojs"
+var cyrest = require('biojs-rest-cy');
+cyrest.status();
 ```
 
 ## Documentation
 
-#### .hello(name)
-
-**Parameter**: `name`
-**Type**: `String`
-**Example**: `biojs`
+#### .status()
 
 The 'hello' method is responsible for showing a name.
 
 How to use this method
 
 ```javascript
-biojsrestcy.hello('biojs'); // "hello biojs"
+cyrest.status(); // 
 ```
 
 ## Contributing
